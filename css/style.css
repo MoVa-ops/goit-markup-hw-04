@@ -141,6 +141,15 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -180,6 +189,20 @@ img {
 .explanation {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.exp-icon-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .explanation-item-title {
